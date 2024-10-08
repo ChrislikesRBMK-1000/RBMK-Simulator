@@ -118,13 +118,85 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 63</value>
+  </data>
+  <data name="Button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 38</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Button4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Button4.Text" xml:space="preserve">
+    <value>Turn Off WaterPump</value>
+  </data>
+  <data name="&gt;&gt;Button4.Name" xml:space="preserve">
+    <value>Button4</value>
+  </data>
+  <data name="&gt;&gt;Button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button4.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Button4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 63</value>
+  </data>
+  <data name="Button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 38</value>
+  </data>
+  <data name="Button3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Button3.Text" xml:space="preserve">
+    <value>Turn On WaterPump</value>
+  </data>
+  <data name="&gt;&gt;Button3.Name" xml:space="preserve">
+    <value>Button3</value>
+  </data>
+  <data name="&gt;&gt;Button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button3.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Button3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 19</value>
+  </data>
+  <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 38</value>
+  </data>
+  <data name="Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Button2.Text" xml:space="preserve">
+    <value>Reactor Shutdown</value>
+  </data>
+  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
+    <value>Button2</value>
+  </data>
+  <data name="&gt;&gt;Button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="TextBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 27</value>
   </data>
   <data name="TextBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TextBox1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -180,10 +252,10 @@
     <value>Panel1</value>
   </data>
   <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 18</value>
+    <value>13, 19</value>
   </data>
   <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 38</value>
@@ -204,7 +276,7 @@
     <value>Panel1</value>
   </data>
   <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -231,13 +303,13 @@
     <value>Panel1</value>
   </data>
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>-1, -1</value>
   </data>
   <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>304, 77</value>
+    <value>304, 107</value>
   </data>
   <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -252,13 +324,37 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
+  </data>
+  <data name="TextBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 15.75pt, style=Bold</value>
+  </data>
+  <data name="TextBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 81</value>
+  </data>
+  <data name="TextBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="TextBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TextBox4.Name" xml:space="preserve">
+    <value>TextBox4</value>
+  </data>
+  <data name="&gt;&gt;TextBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox4.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;TextBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="TextBox3.Font" type="System.Drawing.Font, System.Drawing">
     <value>MS UI Gothic, 15.75pt, style=Bold</value>
   </data>
   <data name="TextBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 46</value>
+    <value>173, 52</value>
   </data>
   <data name="TextBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -276,13 +372,13 @@
     <value>Panel3</value>
   </data>
   <data name="&gt;&gt;TextBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="TextBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>MS UI Gothic, 15.75pt, style=Bold</value>
   </data>
   <data name="TextBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 20</value>
+    <value>173, 21</value>
   </data>
   <data name="TextBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -300,7 +396,7 @@
     <value>Panel3</value>
   </data>
   <data name="&gt;&gt;TextBox2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -327,7 +423,7 @@
     <value>Panel3</value>
   </data>
   <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -336,7 +432,7 @@
     <value>Segoe UI, 14.25pt</value>
   </data>
   <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 17</value>
+    <value>77, 19</value>
   </data>
   <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 25</value>
@@ -357,7 +453,7 @@
     <value>Panel3</value>
   </data>
   <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -370,7 +466,7 @@
     <value>NoControl</value>
   </data>
   <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 42</value>
+    <value>120, 47</value>
   </data>
   <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 25</value>
@@ -391,13 +487,46 @@
     <value>Panel3</value>
   </data>
   <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14.25pt</value>
+  </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 76</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 25</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Water Pump Status:</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>Panel3</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="Panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 76</value>
+    <value>0, 106</value>
   </data>
   <data name="Panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
+    <value>272, 120</value>
   </data>
   <data name="Panel3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -412,7 +541,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Panel3.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -420,6 +549,30 @@
   <metadata name="Timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>107, 17</value>
   </metadata>
+  <data name="TextBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 226</value>
+  </data>
+  <data name="TextBox5.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TextBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 224</value>
+  </data>
+  <data name="TextBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TextBox5.Name" xml:space="preserve">
+    <value>TextBox5</value>
+  </data>
+  <data name="&gt;&gt;TextBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextBox5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

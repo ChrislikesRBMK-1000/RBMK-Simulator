@@ -25,19 +25,25 @@ Partial Class Form1
         components = New ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Panel1 = New Panel()
+        Button4 = New Button()
+        Button3 = New Button()
+        Button2 = New Button()
         Panel2 = New Panel()
         TextBox1 = New TextBox()
         Label2 = New Label()
         Button1 = New Button()
         Label1 = New Label()
         Panel3 = New Panel()
+        TextBox4 = New TextBox()
         TextBox3 = New TextBox()
         TextBox2 = New TextBox()
         Label3 = New Label()
         Label4 = New Label()
         Label5 = New Label()
+        Label6 = New Label()
         Timer1 = New Timer(components)
         Timer2 = New Timer(components)
+        TextBox5 = New TextBox()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         Panel3.SuspendLayout()
@@ -47,11 +53,32 @@ Partial Class Form1
         ' 
         Panel1.BackColor = SystemColors.Control
         Panel1.BorderStyle = BorderStyle.FixedSingle
+        Panel1.Controls.Add(Button4)
+        Panel1.Controls.Add(Button3)
+        Panel1.Controls.Add(Button2)
         Panel1.Controls.Add(Panel2)
         Panel1.Controls.Add(Button1)
         Panel1.Controls.Add(Label1)
         resources.ApplyResources(Panel1, "Panel1")
         Panel1.Name = "Panel1"
+        ' 
+        ' Button4
+        ' 
+        resources.ApplyResources(Button4, "Button4")
+        Button4.Name = "Button4"
+        Button4.UseVisualStyleBackColor = True
+        ' 
+        ' Button3
+        ' 
+        resources.ApplyResources(Button3, "Button3")
+        Button3.Name = "Button3"
+        Button3.UseVisualStyleBackColor = True
+        ' 
+        ' Button2
+        ' 
+        resources.ApplyResources(Button2, "Button2")
+        Button2.Name = "Button2"
+        Button2.UseVisualStyleBackColor = True
         ' 
         ' Panel2
         ' 
@@ -88,13 +115,24 @@ Partial Class Form1
         ' 
         Panel3.BackColor = SystemColors.Control
         Panel3.BorderStyle = BorderStyle.FixedSingle
+        Panel3.Controls.Add(TextBox4)
         Panel3.Controls.Add(TextBox3)
         Panel3.Controls.Add(TextBox2)
         Panel3.Controls.Add(Label3)
         Panel3.Controls.Add(Label4)
         Panel3.Controls.Add(Label5)
+        Panel3.Controls.Add(Label6)
         resources.ApplyResources(Panel3, "Panel3")
         Panel3.Name = "Panel3"
+        ' 
+        ' TextBox4
+        ' 
+        TextBox4.BackColor = SystemColors.ActiveCaptionText
+        TextBox4.BorderStyle = BorderStyle.None
+        resources.ApplyResources(TextBox4, "TextBox4")
+        TextBox4.ForeColor = Color.Tomato
+        TextBox4.Name = "TextBox4"
+        TextBox4.ReadOnly = True
         ' 
         ' TextBox3
         ' 
@@ -129,19 +167,30 @@ Partial Class Form1
         resources.ApplyResources(Label5, "Label5")
         Label5.Name = "Label5"
         ' 
+        ' Label6
+        ' 
+        resources.ApplyResources(Label6, "Label6")
+        Label6.Name = "Label6"
+        ' 
         ' Timer1
         ' 
         ' 
-        ' Timer2
+        ' TextBox5
         ' 
+        resources.ApplyResources(TextBox5, "TextBox5")
+        TextBox5.Name = "TextBox5"
+        TextBox5.ReadOnly = True
         ' 
         ' Form1
         ' 
         resources.ApplyResources(Me, "$this")
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ControlLightLight
+        Controls.Add(TextBox5)
         Controls.Add(Panel3)
         Controls.Add(Panel1)
+        IsMdiContainer = True
+        KeyPreview = True
         Name = "Form1"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
@@ -150,6 +199,7 @@ Partial Class Form1
         Panel3.ResumeLayout(False)
         Panel3.PerformLayout()
         ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents Panel1 As Panel
@@ -166,5 +216,11 @@ Partial Class Form1
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Timer2 As Timer
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents TextBox5 As TextBox
 
 End Class
