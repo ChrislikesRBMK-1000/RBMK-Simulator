@@ -44,7 +44,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-2019    # For a list of available runner types, refer to
+    runs-on: windows-latest    # For a list of available runner types, refer to
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
 
     steps:
@@ -53,6 +53,12 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v2.0.0
+
+    - name: Restore Packages
+      run: nuget restore "RBMK Simulator.sln"
+      
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v2
 
